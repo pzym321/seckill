@@ -1,0 +1,20 @@
+package com.pang.seckill.pojo;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+/**
+ * @ClassName SeckillMessage
+ * @Description 秒杀信息
+ **/
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class SeckillMessage {
+
+    private User user;
+
+    private Long goodsId;
+
+}
